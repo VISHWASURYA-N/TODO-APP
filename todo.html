@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link   rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="wrapper">
+        <article class="todoContainer">
+            <h1>TODO LIST</h1>
+            <form  class="search">
+                <input type="text" name="search" id="search" placeholder="search for todo">
+            </form>
+        <ul>
+            <li><span>play pubg</span><i class="far fa-trash-alt delete"></i></li>
+            <li><span>prepare for chicken curry</span><i class="far fa-trash-alt delete"></i></li>
+            <li><span>call Naveen</span><i class="far fa-trash-alt delete"></i></li>
+            <li><span>prepare for chicken curry</span><i class="far fa-trash-alt delete"></i></li>
+        </ul>
+        <div class="footer">
+            <p>ADD a new todo</p>
+            <form  class="addtodo" action="">
+                <input type="text" name="add" id="Add" placeholder="ADD TODO">
+            </form>
+        </div>
+        </article>
+    </section>
+    <script src="./todo.js"></script>
+</body>
+</html>
